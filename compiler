@@ -1,0 +1,4 @@
+# docker run -ti -v $(pwd):/gopath google/golang /bin/bash
+docker run -ti -v $(pwd):/gopath google/golang bash -c "cd /gopath && go build helloworld.go"
+
+
